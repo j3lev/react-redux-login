@@ -1,0 +1,6 @@
+.App {
+    padding-top: 10px;
+}
+.btn:last-child {
+    margin-left: 5px;
+}
