@@ -11,6 +11,7 @@ class AppContainer extends Component {
   render() {
     const { form, auth } = this.props,
           hideLogin =  auth.signupSuccess || auth.loginSuccess;
+    let someVar = 'hello world';
     return (
       <div className="App">
         <Container fluid>
